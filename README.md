@@ -17,7 +17,7 @@ Este repositório foi criado para armazenar e organizar todos os trabalhos, exer
 
 Aqui estão organizados os projetos e listas de exercícios da disciplina. Cada pasta contém o escopo de uma atividade específica:
 
-- `[01] - ProjetoI_Endpoints/` : Servidor web nativo em Node.js que implementa rotas e chamadas assíncronas. README para ver detalhes sobre a execução e sobre o código
+- `[01] - ProjetoI_Endpoints/` : Servidor web nativo em Node.js que implementa rotas e chamadas assíncronas. Leia a README para ver detalhes sobre a execução e sobre o código
 - ...
 
 ## 🚀 Como executar os projetos
