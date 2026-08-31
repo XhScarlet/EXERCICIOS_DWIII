@@ -1,0 +1,94 @@
+# ProjetoI_Endpoints
+Projeto desenvolvido para fins educativos para a disciplina de Desenvolvimento Web III.
+
+---
+## Descrição
+
+Servidor web nativo em Node.js que implementa rotas e chamadas assíncronas. A aplicação processa requisições de forma eficiente e sem bloqueios, servindo diferentes páginas conforme a URL acessada.
+
+**Instituição:** FATEC - ZONA SUL  
+**Semestre:** 3º Semestre - DSM  
+**Autoras:** Gabriela Cardoso dos Santos e Thalita Mirela Leao de Macedo
+**Email:** gc14072006@gmail.com | thalita.macedo@aluno.cps.sp.gov.br
+
+---
+
+## Endpoints Disponíveis
+
+| Endpoint | Descrição |
+|----------|-----------|
+| `/` | Página inicial do projeto |
+| `/gabriela` | Página de perfil - Gabriela |
+| `/gabriela/sobre` | Página sobre - Gabriela |
+| `/gabriela/curriculo` | Download do currículo PDF - Gabriela |
+| `/thalita` | Página de perfil - Thalita |
+| `/thalita/sobre` | Página sobre - Thalita |
+| `/thalita/curriculo` | Download do currículo PDF - Thalita |
+| `/* (qualquer outra rota)` | Página de erro 404 |
+
+---
+
+## Estrutura do Projeto
+
+```
+ProjetoI_Endpoints/
+│
+├── App.js                                    # Arquivo principal do servidor
+├── README                                    # Este arquivo
+│
+├── projeto/
+│   └── DocumentaçãoProjeto1.pdf              # Documentação técnica em pdf do projeto
+│
+└── public/                                   # Arquivos estáticos (HTML, PDF)
+    ├── index.html                            # Página inicial
+    ├── erro404.html                          # Página de erro 404
+    │
+    ├── gabriela/
+    │   ├── index.html                        # Página de perfil
+    │   ├── sobre.html                        # Página sobre
+    │   └── curriculo.pdf                     # Currículo 
+    │
+    └── thalita/
+        ├── index.html                        # Página de perfil
+        ├── sobre.html                        # Página sobre
+        └── curriculo.pdf                     # Currículo 
+```
+
+---
+
+## Como Executar
+
+### Pré-requisitos
+- Node.js instalado (v12 ou superior)
+- Baixar o projeto ou dar git clone
+
+### Instalação e Execução
+
+1. Abra um terminal na pasta do projeto:
+```bash
+cd EXERCICIOS_DWIII/ProjetoI_Endpoints
+```
+
+2. Execute o servidor:
+```bash
+node App.js
+```
+
+3. Acesse no navegador:
+```
+http://localhost:3000
+```
+
+---
+
+## Tecnologias Utilizadas
+
+- **Node.js** - Runtime JavaScript
+- **HTTP** - Protocolo de comunicação
+- **File System (fs)** - Leitura de arquivos
+- **URL Parser** - Processamento de rotas
+- **HTML e CSS** - Markup das páginas
+
+---
+
+**Última atualização:** 31/08/2026

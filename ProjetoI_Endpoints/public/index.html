@@ -1,0 +1,89 @@
+<!-- 
+  ---------------------------------------------------------------------
+  Desenvolvimento Web III - FATEC - ZONA SUL
+  PROJETO: Trabalho Prático 01 - Servidor Nativo Node.js
+  AUTORAS: Gabriela Cardoso dos Santos | Thalita Mirela Leao de Macedo
+  DATA: 31 Agosto de 2026
+  ---------------------------------------------------------------------
+  DESCRIÇÃO: Página inicial do projeto, com links de acesso para os 
+  endpoints do servidor.
+  ---------------------------------------------------------------------
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático 01 - DWIII</title>
+    
+    <!-- Estilização CSS da página (Identidade visual em tons de roxo) -->
+    <style>
+        :root {
+            --primary: #9f25eb;
+            --text: #382846;
+            --bg: #d5b8f0;
+            --card: #faf7fcdc;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        /* Caixa principal que centraliza o conteúdo */
+        .container {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 12px;
+        }
+        h1 { color: var(--primary); border-bottom: 2px solid var(--bg); padding-bottom: 10px; }
+        h2 { font-size: 1.3rem; margin-top: 25px; color: #374151; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 10px 0; }
+        a { 
+            color: var(--primary); 
+            text-decoration: none; 
+            font-weight: 500;
+            display: inline-block;
+        }
+        /* Efeito suave ao passar o mouse nos links */
+        a:hover { transform: translateX(2px);}
+        .authors { font-weight: bold; color: #6f4878; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Título Principal -->
+        <h1>Desenvolvimento Web III</h1>
+
+        <!-- Identificação das integrantes -->
+        <h2>Autoria do Trabalho</h2>
+        <p class="authors">Gabriela Cardoso dos Santos</p>
+        <p class="authors">Thalita Mirela Leao de Macedo</p>
+
+        <!-- Resumo do projeto -->
+        <h2>Escopo do Projeto</h2>
+        <p>
+            Laboratório prático construído para consolidar os fundamentos de arquitetura backend. 
+            O foco foi a implementação de um ecossistema com roteamento personalizado(endpoints) e, 
+            leitura assíncrona de arquivos e entrega de dados através do ambiente Node.js.
+        </p>
+
+        <!-- Menu de navegação para os endpoints do servidor -->
+        <h2>Links de Acesso</h2>
+        <p>Utilize os atalhos abaixo para abrir as páginas internas do sistema:</p>
+        <ul>
+            <li><a href="/gabriela">→ Perfil: Gabriela Cardoso</a></li>
+            <li><a href="/thalita">→ Perfil: Thalita Mirela</a></li>
+            <li><a href="/projeto">→ Arquivos de Documentação</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

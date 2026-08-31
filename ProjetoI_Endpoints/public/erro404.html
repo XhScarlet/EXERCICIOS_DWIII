@@ -1,0 +1,74 @@
+<!-- 
+  PÁGINA DE ERRO: 404 - Not Found
+  --------------------------------------------------------------------------
+  FATEC - ZONA SUL - Aula 31/08/26 - 3º Semestre - DSM
+  NOME: Gabriela Cardoso dos Santos 
+  --------------------------------------------------------------------------
+  DESCRIÇÃO: Exibida de forma assíncrona quando uma rota não existe.
+  --------------------------------------------------------------------------
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro 404 - Página Não Encontrada</title>
+
+    <!-- Estilização CSS da página (Identidade visual em tons de roxo) -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #d5b8f0;
+            color: #382846;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .error-container {
+            background: #faf7fc;
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            border-radius: 12px;
+        }
+        h1 {
+            font-size: 4rem;
+            color: #9f25eb;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 10px 0 20px 0;
+            color: #5a456a;
+        }
+        p {
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .btn-home {
+            display: inline-block;
+            background: #9f25eb;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .btn-home:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Ops! Página não encontrada.</h2>
+        <p>O endereço que você tentou acessar não existe ou mudou de lugar no servidor.</p>
+        
+        <!-- Retorna de forma segura para a rota raiz -->
+        <a href="/" class="btn-home">Ir para o Início</a>
+    </div>
+
+</body>
+</html>
